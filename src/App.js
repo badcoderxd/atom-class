@@ -13,20 +13,20 @@ function App() {
             <img src={AtomLogo} width="50%" className="main_image" alt="logo"/>
             
             <div className="s_logo">
-              <a href="https://www.instagram.com/atomclassindia/" target="_blank">
-                   <img src={InstaLogo} width="10%" className="mg"/>
+              <a href="https://www.instagram.com/atomclassindia/" target="_blank" rel="noreferrer">
+                   <img src={InstaLogo} width="10%" className="mg"  alt="logo"/>
               </a>
               
-               <a href="https://www.facebook.com/atomclassindia" target="_blank">
-                  <img src={FacebookLogo} width="10%" className="mg"/>
+               <a href="https://www.facebook.com/atomclassindia" target="_blank" rel="noreferrer">
+                  <img src={FacebookLogo} width="10%" className="mg"  alt="logo"/>
                </a>
 
-              <a href="https://www.linkedin.com/company/atomclass/" target="_blank">
-                 <img src={LinkedInLogo} width="10%"  className="mg"/>
+              <a href="https://www.linkedin.com/company/atomclass/" target="_blank" rel="noreferrer">
+                 <img src={LinkedInLogo} width="10%"  className="mg"  alt="logo"/>
               </a>  
                    
-               <a href="https://twitter.com/AtomClass" target="_blank">
-                  <img src={TwitterLogo} width="10%"  className="mg"/>
+               <a href="https://twitter.com/AtomClass" target="_blank" rel="noreferrer">
+                  <img src={TwitterLogo} width="10%"  className="mg"  alt="logo"/>
                </a>
                    
             </div>
