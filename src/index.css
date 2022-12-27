@@ -1,0 +1,45 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #fab120;
+  box-sizing: border-box;
+}
+
+.s_logo {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  height: 90vh;
+  position: relative;
+}
+
+.main_image {
+  width: 50%;
+  height: auto;
+}
+
+.mg{
+  margin-right: 10px;
+  width: 40px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .main_image {
+      width: 100%;
+      height: auto;
+    }
+  .mg{
+    width: 30px;
+  }
+}
